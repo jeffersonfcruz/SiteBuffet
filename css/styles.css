@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+.fundo {
+  background-color: rgb(245, 96, 183);
+  color: #fff;
+}
+.fundo a {
+  text-decoration: none;
+  font-size: 15pt;
+  color: #fff;
+}
+.fundo2 {
+  background-color: rgb(247, 155, 208);
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+}
+.fundo2 a {
+  text-decoration: none;
+  font-size: 15pt;
+  color: #fff;
+}
+.fundo-branco {
+  background-color: #fff;
+}
+/* ----------------- Carrossel */
+.img100 {
+  height: 900px;
+}
+/* --------------------------- */
+/* Logo da pagina */
+.logoimg {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* --------------------------- */
+/* estilo para pagina historia */
+.imghistoria {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
+.historia {
+  background-color: rgb(247, 155, 208);
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: justify;
+}
+.historia a {
+  text-decoration: none;
+  font-size: 15pt;
+  color: #fff;
+}
+/* --------------------------- */
+/* estilo para a pagina contato */
+.fundo2 {
+  background-color: rgb(247, 155, 208);
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+}
+.fundo2 a {
+  text-decoration: none;
+  font-size: 15pt;
+  color: #fff;
+}
+.fundo {
+  background-color: rgb(245, 96, 183);
+  color: #fff;
+}
+.fundo a {
+  text-decoration: none;
+  font-size: 15pt;
+  color: #fff;
+}
+/* --------------------------- */
+/* estilo para pagina inicial */
+.imginicial {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
+.inicial {
+  background-color: rgb(247, 155, 208);
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: justify;
+}
+.inicial a {
+  text-decoration: none;
+  font-size: 15pt;
+  color: #fff;
+}
+.youtube {
+  height: 100%;
+  width: 100%;
+}
+/* ===================================== inicio da pagina contato ===================================== */
+#mapa iframe {
+  width: 100%;
+  height: 500px;
+  box-shadow: 3px 3px 15px black;
+  border-radius: 5px;
+}
+
+/* ============================================= fim da pagina contato ======================================== */
+
+/* =================================================== começo do pagina eventos =================================== */
+
+#casamentos {
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /*quebra de linha */
+  box-shadow: 3px 3px 15px black;
+  justify-content: center;
+}
+
+#casamentos div {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid silver; /*linha na borda */
+}
+
+#casamentos div img {
+  width: 100%;
+  height: 300px;
+}
+
+#aniversarios {
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /*quebra de linha */
+  box-shadow: 3px 3px 15px black;
+  justify-content: center;
+}
+
+#aniversarios div {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid silver; /*linha na borda */
+}
+
+#aniversarios div img {
+  width: 100%;
+  height: 300px;
+}
+
+#bailes {
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /*quebra de linha */
+  box-shadow: 3px 3px 15px black;
+  justify-content: center;
+}
+
+#bailes div {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid silver; /*linha na borda */
+}
+
+#bailes div img {
+  width: 100%;
+  height: 300px;
+}
+
+/* ==================================== fim da pagina eventos ======================================= */
